@@ -1,0 +1,12 @@
+
+def main():
+
+    mesos = [["gener", "febrer", "març"],["abril", "maig", "juny"],["juliol", "agost", "setembre"],["octubre", "novembre", "desembre"]]
+
+    print(f"El segon mes del primer trimestre és: {mesos[0][1]}") # febrer
+    print(f"Els mesos del primer trimestre són: {mesos[0]}") # ["gener", "febrer", "març"]
+    print(f"Accedir a setembre i octubre: {mesos[2][2:]}") # ["setembre", "octubre"]
+
+
+if __name__ == "__main__":
+    main()
